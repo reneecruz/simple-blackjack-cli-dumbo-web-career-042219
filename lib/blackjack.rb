@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   # code #welcome here
     x = 2 
