@@ -1,5 +1,5 @@
 require 'pry'
-# gem install pry
+# gem install pry (run in terminal!)
 
 def welcome
   # code #welcome here
