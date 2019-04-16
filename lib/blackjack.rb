@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 # gem install pry (run in terminal!)
 
 def welcome
