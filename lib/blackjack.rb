@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  deal_card = rand(1..11)
+  rand(1..11)
 end
 
 def display_card_total(card_total)
@@ -30,7 +30,6 @@ end
 
 def initial_round
   # code #initial_round here
-  counter = 0
   first_card = deal_card # card_one
   second_card = deal_card # card_ two
   twice = first_card + second_card # card_total = card_one + card_two
@@ -43,9 +42,9 @@ def hit?(current_card_total)
   prompt_user
   input = get_user_input
   if input == 'h' 
-    current_card_total + deal_card 
+     current_card_total + deal_card 
   elsif input == 's'
-    current_card_total
+        current_card_total
   else 
     invalid_command
   end
@@ -64,12 +63,10 @@ end
 def runner
   # code runner here
   welcome
-  
   card_total = initial_round
   until card_total > 21
-  #current_card_total = get_user_input
-  card_total = hit?(card_total)
-  display_card_total(card_total)
+    card_total = hit?(card_total)
+    display_card_total(card_total)
   end
   end_game(card_total)
 end
