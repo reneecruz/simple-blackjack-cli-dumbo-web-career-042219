@@ -1,5 +1,7 @@
 def welcome
   # code #welcome here
+    x = 2 
+    binding.pry
    puts "Welcome to the Blackjack Table"
 end
 
