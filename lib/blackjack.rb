@@ -1,4 +1,5 @@
 require 'pry'
+# gem install pry
 
 def welcome
   # code #welcome here
